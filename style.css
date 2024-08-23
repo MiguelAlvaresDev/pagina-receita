@@ -1,6 +1,11 @@
 body {
   background-image: url(assets/Página\ de\ receita.png);
   background-size: cover;
+  background-position: center;
+  font-family: "Alice", serif;
+  color: #573A37;
+  margin: 0;
+  padding: 0;
 }
 
 #page {
@@ -10,38 +15,44 @@ body {
   border-radius: 24px;
   margin: 48px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-:root {
-  .alice-regular {
-    font-family: "Alice", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  line-height: 150%;
-  color: #573A37;
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
 }
 
 h1 {
   line-height: 140%;
-  font-size: 40px;
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #291B1A;
 }
 
 h2 {
   font-size: 24px;
+  margin-top: 24px;
+  color: #291B1A;
 }
 
-h1,
-h2 {
-  color: #291B1A;
+p {
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+  text-align: left;
 }
 
 .footer_wrapper {
   display: flex;
   justify-content: center;
   width: 100%;
-
+  margin-top: 24px;
 }
 
 footer {
@@ -50,6 +61,9 @@ footer {
   color: #FF0000;
   font-weight: bolder;
   padding: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
 }
 
 .icon {
@@ -81,6 +95,7 @@ footer {
 
   ul {
     font-size: 16px;
+    padding-left: 20px;
   }
 
   footer {
@@ -90,6 +105,18 @@ footer {
 }
 
 @media (max-width: 480px) {
+  #page {
+    padding: 16px;
+    margin: 16px auto;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto;
+  }
+
   h1 {
     font-size: 24px;
   }
