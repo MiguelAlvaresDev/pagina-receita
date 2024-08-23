@@ -26,19 +26,25 @@ img {
 
 h1 {
   line-height: 140%;
-  font-size: 32px;
+  font-size: 48px;
+  /* Aumentado de 40px para 48px */
   margin-bottom: 16px;
   color: #291B1A;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
+  /* Aumentado de 28px para 32px */
   margin-top: 24px;
   color: #291B1A;
+  padding: 16px;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
+  /* Mantido para melhorar a legibilidade */
+  font-size: 22px;
+  /* Aumentado de 18px para 22px */
   margin-bottom: 16px;
 }
 
@@ -46,6 +52,13 @@ ul {
   padding-left: 0;
   list-style-position: inside;
   text-align: left;
+  font-size: 22px;
+
+  /* Aumentado para combinar com os parágrafos */
+}
+
+li {
+  margin-top: 20px;
 }
 
 .footer_wrapper {
@@ -57,13 +70,15 @@ ul {
 
 footer {
   background-color: #F0E8C2;
-  border-radius: 16px;
+  border-radius: 5px;
   color: #FF0000;
   font-weight: bolder;
   padding: 1rem;
   text-align: center;
   width: 100%;
   max-width: 800px;
+  font-size: 20px;
+  /* Aumentado de 16px para 20px */
 }
 
 .icon {
@@ -82,25 +97,29 @@ footer {
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 42px;
+    /* Ajuste proporcional no mobile */
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 28px;
+    /* Ajuste proporcional no mobile */
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
+    /* Ajuste proporcional no mobile */
   }
 
   ul {
-    font-size: 16px;
-    padding-left: 20px;
+    font-size: 18px;
+    /* Ajuste proporcional no mobile */
   }
 
   footer {
     padding: 0.75rem;
-    font-size: 14px;
+    font-size: 16px;
+    /* Ajuste proporcional no mobile */
   }
 }
 
@@ -113,25 +132,35 @@ footer {
 
   img {
     max-width: 100%;
-    /* Garante que a imagem não ultrapasse a largura do contêiner */
     height: auto;
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 36px;
+    /* Ajuste proporcional no mobile */
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 24px;
+    /* Ajuste proporcional no mobile */
   }
 
-  p,
+  p {
+    font-size: 16px;
+  }
+
   ul {
-    font-size: 14px;
+    font-size: 16px;
+    /* Ajuste proporcional no mobile */
+  }
+
+  li {
+    margin-top: 16px;
   }
 
   footer {
     padding: 0.5rem;
-    font-size: 12px;
+    font-size: 14px;
+    /* Ajuste proporcional no mobile */
   }
 }
